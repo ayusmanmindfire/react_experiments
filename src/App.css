@@ -28,6 +28,48 @@
   color: #61dafb;
 }
 
+.topNav {
+  background-color: #2a3846;
+  display: flex;
+  justify-content: start;
+}
+
+.topNav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 13px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.topNav a:hover {
+  background-color: #80a5f5;
+  color: black;
+}
+.homeDiv{
+  padding: 10px;
+}
+.card{
+  border: 1px solid rgb(130, 130, 123);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 200px;
+  display: inline-block;
+}
+.designP{
+  background-color: #32bbe1;
+  border: 1px solid rgb(19, 39, 56);
+  border-radius: 10px;
+  width:fit-content;
+  padding: 4px;
+}
+.card-img{
+  border: 1px solid black;
+  border-radius: 50%;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
